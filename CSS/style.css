@@ -1,0 +1,743 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------- ANIMAÇÕES ---------- */
+
+
+
+/* ----------------------------------------- SECTION 01 ----------------------------------------- */
+
+#section1{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background: url(/Imgs/ImagensCanva/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerSection1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSection1 img{
+    width: 400px;
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+.container2Section1{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2Section1 h1{
+    font-size: 45px;
+    text-align: center;
+    color: #CBA641;
+    filter: drop-shadow(1px 1px 4px black);
+}
+
+.container2Section1 span{
+    background-color: #CBA641;
+    color: #020B22;
+    padding: 3px 8px;
+    border-radius: 30px 0 0 30px;
+}
+
+.container2Section1 p{
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: #CBA641;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px black;
+    background-color: #020B22;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width:740px){
+    #section1{
+        height: 90vh;
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerSection1 img{
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .container2Section1 h1{
+        font-size: 35px;
+    }
+    
+    .container2Section1 p{
+        font-size: 20px;
+    }
+
+    .containerSection1{
+        flex-direction: column;
+    }
+
+    .container2Section1{
+        width: 90%;
+        margin: auto 5%;
+        margin-top: -5px;
+    }
+}
+
+@media (max-width:640px){
+    .containerSection1 img{
+        width: 60%;
+    }
+}
+
+
+
+
+/* ----------------------------------------- SECTION 02 ----------------------------------------- */
+
+#section2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#CBA641, #020B2200), url(/Imgs/ImagensCanva/11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container1Section2{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.363);
+    box-shadow: 3px 3px 3px rgb(34, 34, 34);
+    border-radius: 15px;
+}
+
+.container1Section2 h1{
+    font-size: 3rem;
+}
+
+.container1Section2 ul li{
+    list-style: none;
+    margin: 2px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.container1Section2 i{
+    margin-right: 10px;
+}
+
+.container2Section2{
+    display: flex;
+    margin: 55px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2Section2 h1{
+    font-size: 2rem;
+}
+
+.caixa{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caixa h3{
+    margin: 15px auto;
+}
+
+.caixa p{
+    padding: 10px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-bottom: 20px;
+}
+
+@media (max-width:740px){
+    .container1Section2 h1{
+        margin: 15px;
+        font-size: 2rem;
+    }
+    .container1Section2 ul li{
+        margin: 8px 0;
+        font-size: 1.1rem;
+    }
+    .container2Section2{
+        margin: 55px 10px;
+    }
+    
+    .container2Section2 h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .caixa{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .caixa h3{
+        margin: 25px auto 10px;
+        background-color: red;
+        padding: 5px 10px;
+        border-radius: 0 20px 20px 0;
+    }
+    
+    .caixa p{
+        background-color: rgba(255, 255, 255, 0.247);
+    }
+}
+
+
+
+/* ----------------------------------------- SECTION 03 ----------------------------------------- */
+
+#section3{
+    display: flex;
+    background-color: #020B22;
+    color: white;
+}
+
+.container1Section3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1Section3 h1{
+    margin: 30px 10px 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.cardTrilha{
+    width: 80%;
+    margin: 10px;
+    color: #CBA641;
+    border-radius: 15px;
+    background: linear-gradient(331deg, rgba(203, 166, 65, 0.7) 18%, rgba(2,11,34, 0.8) 80%) ,url(/Imgs/ImagensCanva/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 3px white;
+}
+
+.cardTrilha h4{
+    margin: 5px 10px;
+    font-size: 25px;
+}
+
+.cardTrilha p{
+    margin: 5px 10px 5px 20px;
+    color: white;
+}
+
+.p-trilha{
+    margin: 20px;
+    text-align: justify;
+    color: #020B22;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(44, 44, 44);
+    background: url(/Imgs/ImagensCanva/13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container1Section3 a{
+    margin-bottom: 20px;
+}
+
+#section3 button{
+    color: #020B22;
+    background-color: #CBA641;
+}
+
+@media (max-width:740px){
+    .cardTrilha{
+        width: 94%;
+    }
+
+    .container1Section3 h1{
+        font-size: 30px;
+    }
+}
+
+
+
+/* ----------------------------------------- SECTION 04 ----------------------------------------- */
+
+#section4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#CBA641, #CBA64157), url(/Imgs/Bg/bg01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containerSection4{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerSection4 p{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.containerSection4 a{
+    margin: 20px auto;
+}
+
+@media (max-width:740px){
+    .containerSection4{
+        width: 90%;
+    }
+    .containerSection4 p{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* ----------------------------------------- SECTION 05 ----------------------------------------- */
+
+#section5{
+    width: 100%;
+    display: flex;
+    background: url(/Imgs/Bg/as-belas-estrelas-brilhando-no-ceu-noturno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.cardContainerSection5{
+    width: 80%;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.cardContainerSection5 h3{
+    text-align: center;
+    font-size: 30px;
+    color: #CBA641;
+}
+
+.cardContainerSection5 p{
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+    color: #CBA641;
+}
+
+.cardContainerSection5 ul li{
+    list-style: none;
+    margin: 5px;
+}
+
+.cardContainerSection5 span{
+    display: flex;
+}
+
+.iconCheck{
+    color: rgb(0, 255, 0);
+    font-size: 30px;
+}
+
+.p-section5{
+    width: 90%;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+@media (max-width:740px){
+    .cardContainerSection5 h3{
+        font-size: 25px;
+    }
+    .cardContainerSection5 p{
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .iconCheck{
+        font-size: 20px;
+    }
+}
+
+
+/* ----------------------------------------- SECTION 06 ----------------------------------------- */
+#section6{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    background: url(/Imgs/ImagensCanva/12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1Section6{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1Section6 h2{
+    margin: 25px auto;
+    font-size: 30px;
+}
+
+.p-section6{
+    margin: 10px auto 25px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #020B22;
+    color: #CBA641;
+}
+
+.cardSection6{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px 0;
+    display: flex;
+    background-color: #CBA641;
+    box-shadow: 3px 3px 10px black;
+}
+
+.cardSection6 p{
+    width: 80%;
+    margin: auto;
+}
+
+.cardSection6 h4{
+    margin: auto;
+    padding: 2px 5px ;
+    border-radius: 3px;
+    color: #CBA641;
+    background-color: #020B22;
+}
+
+@media (max-width:740px){
+    .container1Section6 h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .cardSection6{
+        width: 90%;
+    }
+    .cardSection6 p{
+        margin: auto 5px;
+    }
+    .cardSection6 h4{
+        margin: auto 3px;
+    }
+    .rotacao1{
+        transform: rotate(270deg);
+    }
+    .rotacao2{
+        transform: rotate(-270deg);
+    }
+}
+
+
+
+/* ----------------------------------------- SECTION 07 ----------------------------------------- */
+
+#section7{
+    width: 100%;
+    display: flex;
+    background: rgb(203,166,65);
+    background: linear-gradient(49deg, rgba(203,166,65,1) 18%, rgba(99,75,7,1) 62%);
+}
+
+.containerSectio7{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerSectio7 ul li{
+    margin: 5px auto;
+}
+
+.card01Section7, .card02Section7{
+    width: 350px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #CBA641;
+    background-color: #020B22;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px black;
+}
+
+.card02Section7{
+    color: #cba64160;
+}
+
+.p-section7{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.span-section7{
+    padding: 2px;
+    border-radius: 5px;
+    color: #020B22;
+    background-color: #CBA641;
+}
+
+@media (max-width:740px){
+    #section7{
+        background: rgb(203,166,65);
+        background: linear-gradient(180deg, rgba(203,166,65,1) 0%, rgba(88,68,14,1) 50%, rgba(5,4,0,1) 100%);
+    }
+    .card01Section7, .card02Section7{
+        width: 300px;
+        height: 480px;
+    }
+}
+
+
+
+/* ----------------------------------------- SECTION 08 ----------------------------------------- */
+
+#section8{
+    width: 100%;
+    display: flex;
+    color: white;
+    background: linear-gradient(#020B22, #020b2288), url(/Imgs/Bg/9100913.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerSection8{
+    width: 100%;
+    text-align: center;
+    margin: 25px;
+}
+
+.containerSection8 h2{
+    font-size: 35px;
+    background-color: #CBA641;
+    border-radius: 0 100px;
+    padding: 10px 0;
+}
+
+.containerSection8 h4{
+    font-size: 25px;
+}
+
+.containerSection8 p{
+    width: 60%;
+    margin: 5px auto;
+}
+.containerSection8 i{
+    color: #CBA641;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+@media (max-width:740px){
+    .containerSection8 h2{
+        font-size: 25px;
+        border-radius: 0 50px;
+        margin-bottom: 10px;
+    }
+    .containerSection8 p{
+        width: 100%;
+        margin: 5px auto;
+    }
+    .containerSection8 h4{
+        font-size: 20px;
+        margin-top: 20px;
+        color: #CBA641;
+    }
+}
+
+
+
+/* ----------------------------------------- SECTION 09 ----------------------------------------- */
+
+#section9{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020B22;
+    color: white;
+}
+
+.container1Section9{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1Section9 h2, 
+.container1Section9 h4, 
+.p-bonus{
+    text-align: center;
+    margin: 10px auto 5px;
+}
+
+.container1Section9 h4, 
+.p-bonus{
+    color: #CBA641;
+}
+
+.container1Section9 h2{
+    font-size: 30px;
+}
+
+.container1Section9 h4{
+    font-size: 22px;
+}
+
+.containerBonus{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.containerBonus details{
+    margin: 10px;
+    background-color: #CBA641;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.containerBonus summary{
+    font-size: 25px;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.containerBonus details p{
+    margin: 5px 25px;
+    color: #020B22;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+s{
+    color: red;
+}
+
+.container2Section9{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.p-margin1, .p-margin2, .p-margin3{
+    width: 80%;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: #CBA641;
+    color: #020B22;
+    border-radius: 0 100px 100px 0;
+}
+
+.p-margin1{
+    margin-left: 10px;
+}
+
+.p-margin2{
+    margin-left: 40px;
+}
+
+.p-margin3{
+    margin-left: 70px;
+}
+
+#section9 button{
+    margin: 30px auto;
+    background-color: #CBA641;
+    color: #020B22;
+}
+
+@media (max-width:740px){
+    .containerBonus{
+        width: 90%;
+    }
+    .containerBonus summary{
+        font-size: 25px;
+        filter: drop-shadow(2px 2px 2px black);
+    }
+    .containerBonus details p{
+        margin: 5px;
+    }
+    .p-margin1{
+        margin-left: 10px;
+    }
+    .p-margin2{
+        margin-left: 20px;
+    }
+    .p-margin3{
+        margin-left: 30px;
+    }
+    #section9 button{
+        width: 80%;
+        margin: 20px 10%;
+    }
+}
