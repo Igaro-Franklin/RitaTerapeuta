@@ -1,9 +1,31 @@
+/* 
+
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Port Lligat Sans', sans-serif;
+font-family: 'Young Serif', serif;
+
+*/
+
 *{
     margin: 0;
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Young Serif', serif;
+}
+
+p, span{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+button{
+    font-family: 'Young Serif', serif;
+}
 /* ---------- ANIMAÇÕES ---------- */
 
 
@@ -705,6 +727,7 @@ button:hover{
     background-color: #CBA641;
     padding: 5px 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .containerBonus summary{
@@ -781,4 +804,111 @@ s{
         width: 80%;
         margin: 20px 10%;
     }
+}
+
+
+
+/* ----------------------------------------- SECTION 09 ----------------------------------------- */
+
+#section10{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#CBA641, #cba64100),url(/Imgs/ElementosCanva/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containerSection10{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSection10 h2{
+    width: 80%;
+    font-size: 35px;
+    margin: 25px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: #CBA641;
+    background: linear-gradient(#020B22, #020b228e), url(/Imgs/ElementosCanva/8Um.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardSection10{
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px double black;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+.cardSection10 p{
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.cardSection10 ul li{
+    display: flex;
+    list-style: none;
+}
+
+.cardSection10 ul li i{
+    margin-right: 10px;
+}
+
+.cardPreco{
+    height: 500px;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    color: white;
+    background: linear-gradient(#020B22, #020b226b),url(/Imgs/ElementosCanva/24\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.cardPreco img{
+    width: 300px;
+    margin: 20px auto;
+}
+
+.cardPreco h4{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.cardPreco p {
+    font-size: 30px;
+    filter: drop-shadow(2px 1px 1px #CBA641);
+    margin-bottom: 10px;
+}
+
+.cardPreco h5{
+    font-size: 25px;
+}
+
+.span-preco{
+    font-size: 32px;
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+.span-preco-2{
+    margin: 10px;
 }
