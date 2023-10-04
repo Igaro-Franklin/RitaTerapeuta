@@ -24,8 +24,25 @@ p, span{
 }
 
 button{
+    width: 300px;
+    min-height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: #CBA641;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px black;
+    background-color: #020B22;
+    transition: all .3s ease-in;
+    cursor: pointer;
     font-family: 'Young Serif', serif;
 }
+
+button:hover{
+    transform: scale(1.1);
+}
+
 /* ---------- ANIMAÇÕES ---------- */
 
 
@@ -84,25 +101,6 @@ button{
     font-size: 25px;
     margin: 5px;
     filter: drop-shadow(1px 1px 1px black);
-}
-
-button{
-    width: 500px;
-    height: 30px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    padding: 5px 10px;
-    color: #CBA641;
-    font-weight: bold;
-    box-shadow: 2px 2px 2px black;
-    background-color: #020B22;
-    transition: all .3s ease-in;
-    cursor: pointer;
-}
-
-button:hover{
-    transform: scale(1.1);
 }
 
 #section1 button{
@@ -200,7 +198,7 @@ button:hover{
 .container2Section2{
     display: flex;
     margin: 55px;
-    color: white;
+    color: #020B22;
     flex-direction: column;
     align-items: center;
     border-radius: 25px;
@@ -230,7 +228,8 @@ button:hover{
 .caixa p{
     font-size: 25px;
     padding: 10px;
-    filter: drop-shadow(1px 1px 1px black);
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 1px white);
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     margin-bottom: 20px;
@@ -360,8 +359,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    filter: drop-shadow(1px 1px 1px black);
+    color: #020B22;
     background-color: #CBA641;
     background: linear-gradient(#cba641ce, #020b229c), url(/Imgs/ElementosCanva/4.png);
     background-repeat: no-repeat;
@@ -382,6 +380,7 @@ button:hover{
 .containerSection4 p{
     font-size: 25px;
     margin-bottom: 15px;
+    filter: drop-shadow(1px 1px 1px white);
 }
 
 .containerSection4 a{
@@ -445,7 +444,8 @@ button:hover{
 }
 
 .iconCheck{
-    color: rgb(0, 255, 0);
+    color: #CBA641;
+    filter: drop-shadow(1px 1px 1px black);
     font-size: 30px;
 }
 
@@ -488,6 +488,7 @@ button:hover{
 .container1Section6{
     width: 100%;
     height: 100%;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -509,17 +510,21 @@ button:hover{
 }
 
 .cardSection6{
-    width: 80%;
+    width: 70%;
+    height: 150px;
     margin: 10px auto;
     padding: 10px 0;
     display: flex;
-    background-color: #CBA641;
+    background: linear-gradient(#CBA641, #cba64100), url(/Imgs/ElementosCanva/18.png);
     box-shadow: 3px 3px 10px black;
 }
 
 .cardSection6 p{
     width: 80%;
-    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto auto auto 50px;
 }
 
 .cardSection6 h4{
@@ -528,6 +533,19 @@ button:hover{
     border-radius: 3px;
     color: #CBA641;
     background-color: #020B22;
+}
+
+.SetaNormal{
+    width: 10%;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.SetaInvertida{
+    width: 10%;
+    margin-top: -10px;
+    margin-left: -20px;
+    transform: rotateY(180deg);
 }
 
 @media (max-width:740px){
@@ -774,10 +792,19 @@ s{
     margin-left: 70px;
 }
 
+.iconPresente{
+    font-size: 35px;
+}
+
 #section9 button{
     margin: 30px auto;
     background-color: #CBA641;
     color: #020B22;
+}
+
+.spanBonus{
+    margin: -10px auto 30px;
+    color: #CBA641;
 }
 
 @media (max-width:740px){
@@ -815,7 +842,7 @@ s{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#CBA641, #cba64100),url(/Imgs/ElementosCanva/2.png);
+    background: linear-gradient(#CBA641, #cba64100),url(/Imgs/ImagensCanva/7.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
