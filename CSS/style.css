@@ -655,7 +655,7 @@ button:hover{
 
 .card01Section7, .card02Section7{
     width: 350px;
-    height: 400px;
+    height: 430px;
     margin: 20px auto;
     padding: 0 30px;
     display: flex;
@@ -886,10 +886,10 @@ s{
         margin-left: 5%;
     }
     .p-margin2{
-        margin-left: 10%;
+        margin-left: 9%;
     }
     .p-margin3{
-        margin-left: 15%;
+        margin-left: 12%;
     }
     .p-margin1, .p-margin2, .p-margin3{
         width: 80%;
@@ -1170,8 +1170,8 @@ footer img{
 }
 
 .IconsFooter{
-
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
