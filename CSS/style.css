@@ -54,7 +54,7 @@ button:hover{
     width: 100%;
     height: 100vh;
     color: white;
-    background: linear-gradient(#020B22, #020b2223), url(/Imgs/ElementosCanva/1.png);
+    background: linear-gradient(#020B22, #020b2223), url(/Imgs/ElementosCanva/1.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -217,7 +217,7 @@ button:hover{
     align-items: center;
     border-radius: 25px;
     padding-bottom: 20px;
-    background: linear-gradient(#020b2296, #020b2296), url(/Imgs/ElementosCanva/25.png);
+    background: linear-gradient(#020b2296, #020b2296), url(/Imgs/ElementosCanva/25.webp);
     box-shadow: 3px 3px 3px black;
 }
 
@@ -376,7 +376,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     background-color: #CBA641;
-    background: linear-gradient(#020b229c, #020b2257), url(/Imgs/ElementosCanva/01.png);
+    background: linear-gradient(#020b229c, #020b2257), url(/Imgs/ElementosCanva/01.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -418,7 +418,7 @@ button:hover{
         margin-bottom: 10px;
     }
     #section4{
-        background: linear-gradient(#020b22c2, #020b2257), url(/Imgs/ElementosCanva/01.png);
+        background: linear-gradient(#020b22c2, #020b2257), url(/Imgs/ElementosCanva/01.webp);
     }
 }
 
@@ -429,7 +429,7 @@ button:hover{
 #section5{
     width: 100%;
     display: flex;
-    background: linear-gradient(#020B22, #020b2248), url(/Imgs/ElementosCanva/18.png);
+    background: linear-gradient(#020B22, #020b2248), url(/Imgs/ElementosCanva/18.webp);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -544,7 +544,7 @@ button:hover{
     margin: 10px auto;
     padding: 10px 0;
     display: flex;
-    background: linear-gradient(#CBA641, #cba64100), url(/Imgs/ElementosCanva/18.png);
+    background: linear-gradient(#CBA641, #cba64100), url(/Imgs/ElementosCanva/18.webp);
     box-shadow: 3px 3px 10px black;
 }
 
@@ -641,7 +641,7 @@ button:hover{
     width: 100%;
     display: flex;
     background: rgb(203,166,65);
-    background: linear-gradient(49deg, rgba(203, 166, 65, 0.548) 18%, rgba(99,75,7,1) 62%), url(/Imgs/ElementosCanva/6.png);
+    background: linear-gradient(49deg, rgba(203, 166, 65, 0.548) 18%, rgba(99,75,7,1) 62%), url(/Imgs/ElementosCanva/6.webp);
 }
 
 .containerSectio7{
@@ -692,7 +692,7 @@ button:hover{
 @media (max-width:740px){
     #section7{
         background: rgb(203,166,65);
-        background: linear-gradient(180deg, rgba(203, 166, 65, 0) 0%, rgba(88, 68, 14, 0.644) 50%, rgba(5, 4, 0, 0.808) 100%), url(/Imgs/ElementosCanva/6.png);
+        background: linear-gradient(180deg, rgba(203, 166, 65, 0) 0%, rgba(88, 68, 14, 0.644) 50%, rgba(5, 4, 0, 0.808) 100%), url(/Imgs/ElementosCanva/6.webp);
     }
     .card01Section7, .card02Section7{
         width: 300px;
@@ -708,7 +708,7 @@ button:hover{
     width: 100%;
     display: flex;
     color: white;
-    background: linear-gradient(#020B22, #020b2288), url(/Imgs/ElementosCanva/18.png);
+    background: linear-gradient(#020B22, #020b2288), url(/Imgs/ElementosCanva/18.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -769,7 +769,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(#020b22e5, #020b22e5), url(/Imgs/ElementosCanva/23.png);
+    background: linear-gradient(#020b22e5, #020b22e5), url(/Imgs/ElementosCanva/23.webp);
     color: white;
 }
 
@@ -910,7 +910,7 @@ s{
 #SobreMim{
     width: 100%;
     display: flex;
-    background: linear-gradient(#020b22b7, #020b227a), url(/Imgs/ElementosCanva/18.png);
+    background: linear-gradient(#020b22b7, #020b227a), url(/Imgs/ElementosCanva/18.webp);
 }
 
 .ContainerSobreMim{
@@ -962,7 +962,7 @@ s{
     width: 100%;
     min-height: 400px;
     display: grid;
-    background: linear-gradient(#020b22d3, #020b22d3),url(/Imgs/ElementosCanva/8Um.png);
+    background: linear-gradient(#020b22d3, #020b22d3),url(/Imgs/ElementosCanva/8Um.webp);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -1036,7 +1036,7 @@ s{
     text-align: center;
     border-radius: 20px;
     color: #CBA641;
-    background: linear-gradient(#020B22, #020b228e), url(/Imgs/ElementosCanva/8Um.png);
+    background: linear-gradient(#020B22, #020b228e), url(/Imgs/ElementosCanva/8Um.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1076,7 +1076,7 @@ s{
     border-radius: 10px;
     box-shadow: 3px 3px 3px black;
     color: white;
-    background: linear-gradient(#020B22, #020b226b),url(/Imgs/ElementosCanva/24\ \(2\).png);
+    background: linear-gradient(#020B22, #020b226b),url(/Imgs/ElementosCanva/24\ \(2\).webp);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
