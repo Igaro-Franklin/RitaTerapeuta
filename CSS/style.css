@@ -126,11 +126,13 @@ button:hover{
 
     .containerSection1 img{
         width: 40%;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .container2Section1 h1{
+        margin-top: 40px;
         font-size: 35px;
+        margin: 10px;
     }
     
     .container2Section1 p{
@@ -146,11 +148,20 @@ button:hover{
         margin: auto 5%;
         margin-top: -5px;
     }
+
+    #section1 button{
+        margin: 40px auto;
+        font-size: 20px;
+        background-color: #CBA641;
+        color: #020B22;
+    }
+    
 }
 
 @media (max-width:640px){
     .containerSection1 img{
         width: 60%;
+        margin-top: -20px;
     }
 }
 
@@ -241,6 +252,10 @@ button:hover{
 }
 
 @media (max-width:740px){
+
+    .container1Section2{
+        width: 90%;
+    }
     .container1Section2 h1{
         margin: 15px;
         font-size: 2rem;
@@ -252,28 +267,23 @@ button:hover{
     .container2Section2{
         margin: 55px 10px;
     }
-    
     .container2Section2 h1{
         font-size: 1.5rem;
         text-align: center;
     }
-    
     .caixa{
         width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
     .caixa h3{
         margin: 25px auto 10px;
-        background-color: red;
         padding: 5px 10px;
         border-radius: 0 20px 20px 0;
     }
-    
     .caixa p{
-        background-color: rgba(255, 255, 255, 0.247);
+        font-size: 20px;
     }
 }
 
@@ -366,7 +376,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     background-color: #CBA641;
-    background: linear-gradient(#cba641ce, #020b229c), url(/Imgs/ElementosCanva/11.png);
+    background: linear-gradient(#020b229c, #020b2257), url(/Imgs/ElementosCanva/01.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -385,6 +395,7 @@ button:hover{
 .containerSection4Caixa{
     padding: 10px;
     border-radius: 20px;
+    color: white;
 }
 
 .containerSection4 p{
@@ -405,6 +416,9 @@ button:hover{
     .containerSection4 p{
         font-size: 20px;
         margin-bottom: 10px;
+    }
+    #section4{
+        background: linear-gradient(#020b22c2, #020b2257), url(/Imgs/ElementosCanva/01.png);
     }
 }
 
@@ -472,6 +486,10 @@ button:hover{
 }
 
 @media (max-width:740px){
+    #section5{
+        height: auto;
+        padding-bottom: 100px;
+    }
     .cardContainerSection5 h3{
         font-size: 25px;
     }
@@ -584,20 +602,34 @@ button:hover{
         text-align: center;
         font-size: 25px;
     }
+    .container1Section6 img{
+        width: 100px;
+    }
     .cardSection6{
         width: 90%;
+        min-height: 350px;
     }
     .cardSection6 p{
-        margin: auto 5px;
+        width: 90%;
+        margin: auto 5%;
     }
     .cardSection6 h4{
-        margin: auto 3px;
+        margin: auto 10px;
+        text-align: center;
     }
-    .rotacao1{
-        transform: rotate(270deg);
+    .TitleCard01{
+        flex-direction: column;
     }
-    .rotacao2{
-        transform: rotate(-270deg);
+    .TitleCard02{
+        flex-direction:column-reverse;
+    }
+    #ButtonTrilha{
+        width: 96%;
+        margin: 30px auto;
+        text-decoration: none;
+    }
+    #ButtonTrilha button{
+        width: 100%;
     }
 }
 
@@ -660,7 +692,7 @@ button:hover{
 @media (max-width:740px){
     #section7{
         background: rgb(203,166,65);
-        background: linear-gradient(180deg, rgba(203,166,65,1) 0%, rgba(88,68,14,1) 50%, rgba(5,4,0,1) 100%);
+        background: linear-gradient(180deg, rgba(203, 166, 65, 0) 0%, rgba(88, 68, 14, 0.644) 50%, rgba(5, 4, 0, 0.808) 100%), url(/Imgs/ElementosCanva/6.png);
     }
     .card01Section7, .card02Section7{
         width: 300px;
@@ -713,7 +745,8 @@ button:hover{
 @media (max-width:740px){
     .containerSection8 h2{
         font-size: 25px;
-        border-radius: 0 50px;
+        padding: 10px;
+        border-radius: 0 20px;
         margin-bottom: 10px;
     }
     .containerSection8 p{
@@ -851,13 +884,18 @@ s{
         margin: 5px;
     }
     .p-margin1{
-        margin-left: 10px;
+        margin-left: 5%;
     }
     .p-margin2{
-        margin-left: 20px;
+        margin-left: 10%;
     }
     .p-margin3{
-        margin-left: 30px;
+        margin-left: 15%;
+    }
+    .p-margin1, .p-margin2, .p-margin3{
+        width: 80%;
+        padding: 5px 10px;
+        border-radius: 0 20px 20px 0;
     }
     #section9 button{
         width: 80%;
@@ -867,8 +905,109 @@ s{
 
 
 
-/* ----------------------------------------- SECTION 09 ----------------------------------------- */
+/* ----------------------------------------- SECTION Sobre Mim ----------------------------------------- */
 
+#SobreMim{
+    width: 100%;
+    display: flex;
+    background: linear-gradient(#020b22b7, #020b227a), url(/Imgs/ElementosCanva/18.png);
+}
+
+.ContainerSobreMim{
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerSobreMim img{
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 50px 50px 200px 200px;
+}
+
+.TextoSobreMim{
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: #CBA641;
+}
+
+.TextoSobreMim p{
+    margin: 10px 0 5px 10px;
+}
+
+@media (max-width:740px){
+    .ContainerSobreMim{
+        flex-direction: column;
+    }
+    .ContainerSobreMim img{
+        width: 200px;
+        margin: auto;
+    }
+    .TextoSobreMim{
+        width: 92%;
+    }
+}
+
+
+/* ----------------------------------------- SECTION FAQ ----------------------------------------- */
+
+#FAQ{
+    width: 100%;
+    min-height: 400px;
+    display: grid;
+    background: linear-gradient(#020b22d3, #020b22d3),url(/Imgs/ElementosCanva/8Um.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.ContainerFAQ{
+    width: 70%;
+    margin: 30px auto;
+}
+
+.ContainerFAQ details{
+    margin-top: 10px;
+}
+
+.ContainerFAQ h2{
+    color: #CBA641;
+    font-size: 35px;
+    margin: 20px auto;
+}
+
+.ContainerFAQ summary{
+    font-size: 30px;
+    color: white;
+}
+
+.ContainerFAQ p{
+    margin-left: 50px;
+    color: #CBA641;
+    font-size: 20px;
+}
+
+@media (max-width:740px){
+    .ContainerFAQ{
+        width: 90%;
+    }
+    .ContainerFAQ h2{
+        color: #CBA641;
+        font-size: 25px;
+    }
+    .ContainerFAQ summary{
+        font-size: 22px;
+    }
+}
+
+/* ----------------------------------------- SECTION 10 ----------------------------------------- */
 #section10{
     width: 100%;
     display: flex;
@@ -984,4 +1123,26 @@ s{
     width: 80%;
     margin: auto;
     padding: 10px 0;
+}
+
+@media (max-width:740px){
+    .containerSection10 h2{
+        width: 90%;
+        font-size: 25px;
+        border-radius: 20px;
+    }
+    .cardSection10{
+        width: 90%;
+    }
+    .cardPreco{
+        width: 90%;
+    }
+
+    .cardPreco h4{
+        margin-top: 20px;
+    }
+    #comprarAgora button{
+        width: 90%;
+        font-size: 20px;
+    }
 }
