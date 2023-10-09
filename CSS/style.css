@@ -175,7 +175,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(#CBA641, #020B2200), url(/Imgs/ImagensCanva/11.png);
+    background: linear-gradient(#CBA641, #020B2200), url(/Imgs/ImagensCanva/11.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -316,7 +316,7 @@ button:hover{
     margin: 10px;
     color: #CBA641;
     border-radius: 15px;
-    background: linear-gradient(331deg, rgba(203, 166, 65, 0.7) 18%, rgba(2,11,34, 0.8) 80%) ,url(/Imgs/ImagensCanva/7.png);
+    background: linear-gradient(331deg, rgba(203, 166, 65, 0.7) 18%, rgba(2,11,34, 0.8) 80%) ,url(/Imgs/ImagensCanva/7.webp);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 1px 1px 3px white;
@@ -339,7 +339,7 @@ button:hover{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgb(44, 44, 44);
-    background: url(/Imgs/ImagensCanva/13.png);
+    background: url(/Imgs/ImagensCanva/13.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -477,7 +477,7 @@ button:hover{
     padding: 20px;
     margin: 10px auto;
     text-align: justify;
-    background: radial-gradient(circle, #020b229a 0%, #020B22 100%), url(/Imgs/ElementosCanva/15.png);
+    background: radial-gradient(circle, #020b229a 0%, #020B22 100%), url(/Imgs/ElementosCanva/15.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -506,7 +506,7 @@ button:hover{
     width: 100%;
     min-height: 90vh;
     display: flex;
-    background: url(/Imgs/ImagensCanva/12.png);
+    background: url(/Imgs/ImagensCanva/12.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1012,7 +1012,7 @@ s{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#CBA641, #cba64100),url(/Imgs/ImagensCanva/7.png);
+    background: linear-gradient(#CBA641, #cba64100),url(/Imgs/ImagensCanva/7.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
