@@ -693,7 +693,7 @@ button:hover{
     }
     .card01Section7, .card02Section7{
         width: 300px;
-        height: 520px;
+        height: 550px;
     }
 }
 
@@ -1179,6 +1179,7 @@ footer img{
     margin: 10px 15px;
     color: white;
     font-size: 24px;
+    transition: .6s ease;
 }
 
 .IconsFooter a:hover{
