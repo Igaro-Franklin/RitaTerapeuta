@@ -909,13 +909,14 @@ s{
 #SobreMim{
     width: 100%;
     display: flex;
-    background: linear-gradient(#020b22b7, #020b227a), url(/Imgs/ElementosCanva/18.webp);
+    background: linear-gradient(#020b2263, #020b2263), url(/Imgs/ElementosCanva/18.webp);
 }
 
 .ContainerSobreMim{
     width: 100%;
     margin: 30px auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -934,7 +935,7 @@ s{
     font-weight: bold;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.555);
-    color: #CBA641;
+    color: white;
 }
 
 .TextoSobreMim p{
@@ -1006,7 +1007,10 @@ s{
     }
 }
 
+
+
 /* ----------------------------------------- SECTION 10 ----------------------------------------- */
+
 #section10{
     width: 100%;
     display: flex;
@@ -1144,4 +1148,44 @@ s{
         width: 90%;
         font-size: 20px;
     }
+}
+
+
+/* ----------------------------------------- FOOTER----------------------------------------- */
+footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(#000000, #020B22);
+    justify-content: space-around;
+    align-items: center;
+    color: #CBA641;
+}
+
+footer img{
+    width: 150px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.IconsFooter{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.IconsFooter a{
+    margin: 10px 15px;
+    color: white;
+    font-size: 24px;
+}
+
+.IconsFooter a:hover{
+    transform: scale(1.2);
+}
+
+
+.IconsFooter span{
+    margin-left: 10px;
 }
