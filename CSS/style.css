@@ -46,7 +46,17 @@ button:hover{
 
 /* ---------- ANIMAÇÕES ---------- */
 
+.revelar{
+    position: relative;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 1s all ease;
+}
 
+.revelar.ativar{
+    transform: translateY(0);
+    opacity: 1;
+}
 
 /* ----------------------------------------- SECTION 01 ----------------------------------------- */
 
@@ -418,6 +428,7 @@ button:hover{
         margin-bottom: 10px;
     }
     #section4{
+        height: auto;
         background: linear-gradient(#020b22c2, #020b2257), url(/Imgs/ElementosCanva/01.webp);
     }
 }
@@ -497,6 +508,9 @@ button:hover{
     }
     .iconCheck{
         font-size: 20px;
+    }
+    .p-section5{
+        margin-bottom: 50px;
     }
 }
 
@@ -604,6 +618,7 @@ button:hover{
     }
     .cardSection6{
         width: 90%;
+        height: auto;
         min-height: 350px;
     }
     .cardSection6 p{
